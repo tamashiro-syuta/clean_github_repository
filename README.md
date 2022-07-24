@@ -16,7 +16,7 @@ gh repo list --json name --jq '.[].name' >> delete_repo.txt
 
 4.`delete_target.txt`から、残したいリポジトリを削除 (※これやらないと大変なことになります)
 
-5.お掃除タイム(削除)
+5.Let's お掃除タイム(削除)
 ```
 fish delete_repo.sh
 ```
